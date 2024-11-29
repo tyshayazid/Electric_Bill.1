@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Image at the top of the About Us page -->
+    <ImageView
+        android:id="@+id/about_us_image"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/abbkg"
+        android:scaleType="centerCrop"
+        android:contentDescription="About Us Image"/>
+
+    <!-- Title Text for About Us -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ElectroBill"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:paddingTop="12dp"
+        android:paddingBottom="20dp"/>
+
+    <!-- Other content for About Us -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Author"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:paddingTop="8dp"
+        android:gravity="center"/>
+
+    <!-- Your Name (Centered) -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nurtysha Balqis Binti Muhamad Yazid"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student ID"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:paddingTop="8dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2022844772"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Group"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:paddingTop="8dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RCDCS2405A"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Programme Code"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:paddingTop="8dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CS240"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:gravity="center"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visit Us"
+        android:icon="@drawable/web"
+        android:layout_marginHorizontal="140dp"
+        android:layout_marginTop="30dp"/>
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="© 2024 ElectroBill. All rights reserved."
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:paddingTop="16dp"
+        android:gravity="center"
+        android:layout_marginTop="60dp" />
+
+
+
+
+</LinearLayout>
+
+
